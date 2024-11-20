@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+// all components 
+import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import PageChangeEffect from "@/components/PageChangeEffect";
+const Jetbrains_Mono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["100","200","300","400","500","600","700","800"],
+  variable: '--font-jetbrainsMono'
 });
 
 export const metadata: Metadata = {
@@ -25,10 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={Jetbrains_Mono.variable}>
+        <Header/>
+        <PageChangeEffect/>
+        <PageTransition> {children} </PageTransition>
       </body>
     </html>
   );
