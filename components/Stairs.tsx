@@ -1,7 +1,7 @@
 import React from 'react'
-import {motion } from  "framer-motion";
+import {animate, motion } from  "framer-motion";
 
-const stairAnimations = {
+const stairAnimation = {
     initial: {
         top:"0%",
         
@@ -15,20 +15,20 @@ const stairAnimations = {
     },
 };
 
-const reverseIndex = (index: number) => {
+const reverseIndex = (index:number) => {
     const totalSteps = 6;
     return totalSteps - index - 1;
 }
 const Stairs = () => {
     
     return (
-        <div>
+        <>
             {[...Array(6)].map((_, index) => {
 
                 return (
                     <motion.div 
                     key={index} 
-                    variants={stairAnimations} 
+                    variants={stairAnimation} 
                     initial="initial" 
                     animate="animate" 
                     exit="exit" 
@@ -38,12 +38,13 @@ const Stairs = () => {
                         delay: reverseIndex(index) * 0.1,
 
                     }}
-                    className="h-full w-full bg-white relative" />
-                )
+                    className="h-full w-full bg-accent relative" 
+                    />
+                );
             })}
 
-        </div>
+        </>
     );
 }
 
-export default Stairs
+export default Stairs;
