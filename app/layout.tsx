@@ -5,7 +5,7 @@ import "./globals.css";
 // all components 
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
-import PageChangeEffect from "@/components/PageChangeEffect";
+import PageChangeEffect from "@/components/StairTansition";
 const Jetbrains_Mono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["100","200","300","400","500","600","700","800"],
