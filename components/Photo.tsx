@@ -19,19 +19,19 @@ const Photo = () => {
             >
                 <motion.div className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute'>
                     {/* you need absolute to keep everything up */}
-                    {/* <Image src="/assets/myphoto.png"
+                    <Image src="/assets/Image_Editor.png"
                     priority
                     quality={100}
                     fill
                     alt=""
                     className="object-contain rounded-full"
-                    /> */}
+                    />
                 </motion.div>
                 {/* circle effect */}
                 <motion.svg 
                     className="w-[300px] xl:w-[506px]"
                     fill="transparent"
-                    viewBox="0 0 506 506"
+                    viewBox="3 3 506 506"
                     xmlns ="http://www.w3.org/2000/svg"
                 >
                     <motion.circle
@@ -41,7 +41,7 @@ const Photo = () => {
                     stroke="#02faf6"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    initial={{strokeDasharray: "24 10 0 0"}}
+                    initial={{strokeDasharray: "24 10 10 10"}}
                     animate={{
                         strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
                         rotate:[120,360],

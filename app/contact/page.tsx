@@ -33,11 +33,11 @@ const about = [
             fieldName: "Language",
             fieldValue: "English, Chinese"
         },
-        // {
-        //     icon:</>,
-        //     fieldName: "Language",
-        //     fieldValue: "English, Chinese"
-        // },
+        {
+            icon:<FaMapMarkedAlt/>,
+            fieldName: "Location",
+            fieldValue: "Brooklyn, New York"
+        },
     ];
 
 

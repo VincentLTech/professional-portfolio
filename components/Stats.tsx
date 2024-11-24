@@ -3,7 +3,7 @@ import React from 'react'
 import CountUp from "react-countup"
 import axios from 'axios';
 import date from 'date-and-time';
-
+import projects from "@/app/work/page";
 const now = new Date();
 var target= date.format(now, 'YYYY')- 2018;
 
@@ -13,7 +13,7 @@ const stats = [
         text: "Years of programming experience",
     },
     {
-        num: 15,
+        num: 10,//projects.length
         text: "Projects Completed",
 
     },

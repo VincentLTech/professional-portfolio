@@ -20,7 +20,7 @@ const projects= [
         title:"Brooklyn College Esports Website",
         description:
             "Built and designed a website for Brooklyn College Esports and Gaming Club to attract more people at the campus and make registering for membership and competition easier.",
-        stack: [{name: "HTML 5"}, {name: "CSS 3"},{name:"TypeScript"},{name:"Next.js"}],
+        stack: [{name: "HTML 5"}, {name: "CSS 3"},{name:"JavaScript"},{name:"React.js"}],
         image: '/assets/work/Esports.png',
         live: "https://cunybcesports.onrender.com/",
         github: "https://github.com/VincentLTech/Deploy-React-Esports-Site",
@@ -91,6 +91,39 @@ const projects= [
             "Recipe sharing application",
         stack: [{name: "Python"}, {name: "Flask"},{name:"MySQL"},{name:"Bootstrap"}],
         image: '/assets/work/Project Club.png',
+        live: "",
+        github: "https://github.com/VincentLTech/Recipe",
+    },
+    {
+        num:"08",
+        category: "Full Stack",
+        title:"Portfolio Website 1",
+        description:
+            "My first portfolio website",
+        stack: [{name: "JavaScript"}, {name: "React.js"},{name:"MongoDB"},{name:"Mongoose"}],
+        image: '/assets/work/Portfolio1.png',
+        live: "https://vifiles.onrender.com/",
+        github: "https://github.com/VincentLTech/Vifiles1",
+    },
+    {
+        num:"09",
+        category: "frontend",
+        title:"Portfolio Website 2",
+        description:
+            "My second portfolio website using ActernityUI and Next.js to animate it",
+        stack: [{name: "Next.js"}, {name: "AceternityUI"},{name:"TypeScript"}],
+        image: '/assets/work/Portfolio2.png',
+        live: "",
+        github: "https://github.com/VincentLTech/vincentportfolioace",
+    },
+    {
+        num:"10",
+        category: "frontend",
+        title:"Portfolio Website 3",
+        description:
+            "My professional portfolio website",
+        stack: [{name: "Next.js"}, {name: "Framer Motion"},{name:"TypeScript"}],
+        image: '/assets/work/Portfolio3.png',
         live: "",
         github: "https://github.com/VincentLTech/Recipe",
     },

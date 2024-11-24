@@ -28,14 +28,39 @@ const Home = () => {
               </p>
 
               <div className='flex flex-col xl:flex-row items-center gap-8'>
-                <Button 
-                  variant="outline"
-                  size="lg" 
-                  className='uppercase flex items-center gap-2 '
-                >
-                  <span> Download CV </span>
-                  <FiDownload className='text-xl '/>
-                </Button>
+                <a href="./assets/downloads/CoverLetterP.pdf" 
+                    download="VincentCoverLetter.pdf">
+                  <Button 
+                    variant="outline"
+                    size="lg" 
+                    className='uppercase flex items-center gap-2 '
+                  >
+                    <span> Download CV </span>
+                    
+
+                    
+                      <FiDownload 
+                        className='text-xl '
+                      
+                      />
+                    
+                  </Button>
+                </a>
+                <a href="./assets/downloads/VincentLauResume2024.pdf" 
+                    download="VincentResume.pdf">
+                  <Button 
+                    variant="outline"
+                    size="lg" 
+                    className='uppercase flex items-center gap-2 '
+                  >
+                    <span> Download Resume </span>
+                      <FiDownload 
+                        className='text-xl '
+                      
+                      />
+                    
+                  </Button>
+                </a>
                 <div className='mb-8 xl:mb-0'>
                   <Socials
                   containerStyles="flex gap-6"
