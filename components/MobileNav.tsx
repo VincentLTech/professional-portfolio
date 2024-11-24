@@ -23,7 +23,7 @@ const links = [
     },
     {
         name: 'Work',
-        path: '/experience',
+        path: '/work',
 
     },
     {
