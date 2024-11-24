@@ -1,5 +1,7 @@
 import React from 'react'
-import {animate, motion } from  "framer-motion";
+import {
+    // animate, 
+    motion } from  "framer-motion";
 
 const stairAnimation = {
     initial: {

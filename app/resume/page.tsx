@@ -1,13 +1,13 @@
 "use client"
 import React from 'react'
-import date from 'date-and-time';
+// import date from 'date-and-time';
 
 import { FaHtml5, FaCss3,FaJs, FaReact, FaFigma, FaNodeJs,FaBootstrap,FaJava,FaWordpress } from 'react-icons/fa';
 import { SiTailwindcss, SiNextdotjs, SiTypescript, SiExpress,SiMongodb ,SiPrisma,SiFlask} from 'react-icons/si';
 
 
-const now = new Date();
-var target= date.format(now, 'YYYY')- 2018;
+// const now = new Date();
+// var target= date.format(now, 'YYYY')- 2018;
 
 // const about = {
 //     title: "About me",
