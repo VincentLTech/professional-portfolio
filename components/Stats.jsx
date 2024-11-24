@@ -6,7 +6,7 @@ import date from 'date-and-time';
 // import axios from 'axios';
 // import projects from "@/app/work/page";
 const now = new Date();
-const target : number= date.format(now, 'YYYY')- 2018;
+const target = date.format(now, 'YYYY')- 2018;
 
 const stats = [
     {
