@@ -9,7 +9,7 @@ import { IoLanguageSharp } from "react-icons/io5";
 import { FaBusinessTime } from "react-icons/fa";
 
 const now = new Date();
-const target= date.format(now, 'YYYY')- 2018;
+const target : number= date.format(now, 'YYYY')- 2018;
 
 const about = [
     
