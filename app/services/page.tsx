@@ -38,7 +38,7 @@ const services = [
     },
     {
         num: '06',
-        title: 'Programming Tudor',
+        title: 'Programming Tutor',
         description: 'I enjoy building amazing thing on my computer and I can teach college level student how to visualize and understand programming',
 
     },
