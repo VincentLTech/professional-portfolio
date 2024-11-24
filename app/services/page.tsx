@@ -1,9 +1,10 @@
 "use client"
 import { BsArrowDownRight } from "react-icons/bs";
-import Link from "next/link";
+
 import { motion } from "framer-motion";
 import React from 'react'
-import { ScrollArea } from "@radix-ui/react-scroll-area";
+// import Link from "next/link";
+// import { ScrollArea } from "@radix-ui/react-scroll-area";
 const services = [
     {
         num: '01',

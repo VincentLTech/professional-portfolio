@@ -2,8 +2,8 @@
 
 import React from 'react'
 import date from 'date-and-time';
-import {ScrollArea } from "@/components/ui/scroll-area";
-import { motion } from 'framer-motion';
+// import {ScrollArea } from "@/components/ui/scroll-area";
+// import { motion } from 'framer-motion';
 import { FaPhoneAlt,FaEnvelope, FaMapMarkedAlt } from 'react-icons/fa';
 import { IoLanguageSharp } from "react-icons/io5";
 import { FaBusinessTime } from "react-icons/fa";

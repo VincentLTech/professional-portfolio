@@ -11,7 +11,7 @@ import {Tooltip, TooltipContent, TooltipProvider} from "@/components/ui/tooltip"
 import { TooltipTrigger } from '@radix-ui/react-tooltip';
 import WorkSliderBtns from '@/components/ui/WorkSliderBtns';
 
-const BCCCs = require('../../public/assets/work/BCCC.png')
+// const BCCCs = require('../../public/assets/work/BCCC.png')
 
 const projects= [
     {
