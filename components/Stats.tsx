@@ -1,9 +1,10 @@
 "use client"
 import React from 'react'
 import CountUp from "react-countup"
-import axios from 'axios';
+
 import date from 'date-and-time';
-import projects from "@/app/work/page";
+// import axios from 'axios';
+// import projects from "@/app/work/page";
 const now = new Date();
 var target= date.format(now, 'YYYY')- 2018;
 
