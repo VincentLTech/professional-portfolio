@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav/>
                     <Link href="/contact">
-                        <Button>Hire Me </Button>
+                        <Button>Vector</Button>
                     </Link>
                 </div>
                 {/* this will appear when you switch to a mobile section */}

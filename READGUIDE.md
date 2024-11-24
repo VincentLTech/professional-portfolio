@@ -5,3 +5,4 @@ npx shadcn@latest add input button scroll-area select sheet tabs textarea toolti
 npm i framer-motion
 npm i react-icons
 npm i react-countup
+npm i swiper

@@ -3,7 +3,7 @@ import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import React from 'react'
-
+import { ScrollArea } from "@radix-ui/react-scroll-area";
 const services = [
     {
         num: '01',
@@ -71,6 +71,7 @@ const Services = () => {
                     }}
                     className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
                 >
+
                     {services.map((service, index)=>{
                         return (
                             <div key={index} className="flex-1 flex flex-col justify-center gap-6 group"> 
