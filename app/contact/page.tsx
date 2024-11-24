@@ -1,15 +1,15 @@
 "use client"
 
 import React from 'react'
-import date from 'date-and-time';
+
 // import {ScrollArea } from "@/components/ui/scroll-area";
 // import { motion } from 'framer-motion';
 import { FaPhoneAlt,FaEnvelope, FaMapMarkedAlt } from 'react-icons/fa';
 import { IoLanguageSharp } from "react-icons/io5";
 import { FaBusinessTime } from "react-icons/fa";
-
-const now = new Date();
-const target : number= date.format(now, 'YYYY')- 2018;
+// import date from 'date-and-time';
+// const now = new Date();
+// const target : number= date.format(now, 'YYYY')- 2018;
 
 const about = [
     
@@ -21,7 +21,7 @@ const about = [
         {
             icon:<FaBusinessTime/>,
             fieldName: "Experience",
-            fieldValue: target+ "+ Years"
+            fieldValue: 6 + "+ Years"
         },
         {
             icon:<FaEnvelope/>,
