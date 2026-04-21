@@ -13,7 +13,7 @@ const Home = () => {
         <div className='flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24'>
           <div className="text-center xl:text-left order-2 xl:order-none">
             {/* order-2 xl:order-none is a mobile feature */}
-            <span>Full Stack Software Developer</span>
+            <span>Software Engineer • Radiologic Technologist • Future ML Engineer</span>
             <h1 className='h1'>
               Hi! 
               <br className='xl:invisible max-xl:visible'/>
@@ -22,20 +22,24 @@ const Home = () => {
               <span className='text-accent'>Vincent Lau</span>
               </h1>
               <p className="max-w-[500px] mb-9 text-white/80">
-                I am proficient in Next.js and React.js development
-                and I am also skilled at UX/Ui Designing and organizing teams and dedigating tasks to my co-workers.
-                I love piano and creating music sheets and guides so many others can learn how to play it.
+                I am a full-stack developer with a background in Next.js, React, and UX/UI design. I'm currently training as a radiology technologist at John Patrick University and starting Georgia Tech's OMSCS program in Machine Learning this Spring — combining clinical expertise with AI engineering to build the next generation of medical imaging tools. Outside of work, I love playing piano and creating music sheets so others can learn too.
               </p>
+              {/* <p className="max-w-[500px] mb-9 text-white/80">
+                Currently:
+                📡 Radiology Technologist in training (ARRT candidate, John Patrick University)
+                🎓 Georgia Tech OMSCS — Machine Learning, Spring 2026
+                🧠 Building toward medical imaging AI              
+              </p> */}
 
               <div className='flex flex-col xl:flex-row items-center gap-8'>
                 <a href="./assets/downloads/CoverLetterP.pdf" 
-                    download="VincentCoverLetter.pdf">
+                    download="VincentResume.pdf">
                   <Button 
                     variant="outline"
                     size="lg" 
                     className='uppercase flex items-center gap-2 '
                   >
-                    <span> Download CV </span>
+                    <span> Download Resume </span>
                     
 
                     
@@ -47,13 +51,13 @@ const Home = () => {
                   </Button>
                 </a>
                 <a href="./assets/downloads/VincentLauResume2024.pdf" 
-                    download="VincentResume.pdf">
+                    download="VincentCoverLetter.pdf">
                   <Button 
                     variant="outline"
                     size="lg" 
                     className='uppercase flex items-center gap-2 '
                   >
-                    <span> Download Resume </span>
+                    <span> View My Work </span>
                       <FiDownload 
                         className='text-xl '
                       

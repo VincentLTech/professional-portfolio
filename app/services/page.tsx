@@ -8,20 +8,20 @@ import React from 'react'
 const services = [
     {
         num: '01',
-        title: 'Full Stack Development',
-        description: 'I can build Full Stack projects and softwares utilizing both Front-end and Back-end technologies',
+        title: 'Software Engineer',
+        description: 'I am skilled in full-stack development with Java, Python, React, and Next.js, building responsive web applications, leading engineering teams, and delivering accessible, high-performing digital experiences.',
 
     },
     {
         num: '02',
-        title: 'Web Development',
-        description: 'I am skilled in using HTML, CSS and JavaScript to build and structure websites.',
+        title: 'Radiology Technologist',
+        description: 'I am skilled in operating advanced imaging equipment and producing high-quality radiographs while ensuring patient safety and comfort. I have also served in serving trauma patients',
 
     },
     {
         num: '03',
-        title: 'Front-end Development',
-        description: 'I am able to deliver front-end code using front-end technologies such as React.js and Next.js through JavaScript or TypeScript',
+        title: 'Web Developer',
+        description: 'I am skilled in renovating, developing, and maintaining community-focused websites using wireframing, HTML5, and clean front-end practices.',
 
     },
     {
@@ -32,20 +32,20 @@ const services = [
     },
     {
         num: '05',
-        title: 'Backend Development ',
-        description: 'I have knowledge in creating backend models and routes utilizing tools like Node.js Express.js, MongoDB, SQL and PostgreSQL',
+        title: 'Data Engineer',
+        description: 'I am skilled in building data pipelines, working with SQL, Python, and Spark, and supporting data infrastructure across cloud platforms like AWS, Azure, and GCP.',
 
     },
     {
         num: '06',
-        title: 'Programming Tutor',
-        description: 'I enjoy building amazing thing on my computer and I can teach college level student how to visualize and understand programming',
+        title: 'Accountant',
+        description: 'I am skilled in managing financial records and reporting using QuickBooks and Microsoft Excel to support accurate and organized bookkeeping.',
 
     },
     {
         num: '07',
-        title: 'Project Manager',
-        description: 'I have experience in dedigating task and organizing teams and groups to make deployable projects and scheduling meetings with stakeholders to meet product requirements ',
+        title: 'Data Entry Specialist',
+        description: 'I am skilled in organizing, entering, and delivering large volumes of data and resources while supporting human resources and administrative operations.',
 
     },
     {

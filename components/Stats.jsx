@@ -20,7 +20,7 @@ const stats = [
     },
     {
         num: 4,
-        text: "Computer Languages Mastered",
+        text: "Programming Languages",
 
     },
     {
